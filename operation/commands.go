@@ -49,7 +49,7 @@ var commandBluegreen = cli.Command{
 	Flags: []cli.Flag{
 		cli.BoolFlag{
 			Name: "nodeploy, nd",
-			Usage: "bbb",
+			Usage: "without deployment, only swap load balancer",
 		},
 	},
 	Action: doBluegreen,
